@@ -2,7 +2,7 @@
 html {
     font-size: 18px;
 }
-* {
+*, *::after, *::before {
     box-sizing: border-box; 
 }
 body {
@@ -104,7 +104,7 @@ header {
     color: #777;
 }
 
-/* Section 3 */
+/* Section 3  About Section */
 
 .sec3 {
     grid-template-columns: 1fr 0.5fr 0.5fr;
@@ -138,7 +138,7 @@ header {
     height: 8px;
 }
 
-/* Section 4 */
+/* Section 4 Services Section*/
 
 .sec4 {
     grid-template-columns: repeat(4, 1fr);
@@ -167,7 +167,7 @@ header {
     padding: 1rem;
 }
 
-/* Section 5 */
+/* Section 5 Experience Section */
 
 .sec5 {
     grid-template-columns: repeat(2, 1fr);
@@ -185,7 +185,7 @@ header {
     padding-left: 0; 
 }
 
-/* Section 6 */
+/* Section 6 Education Section */
 
 .sec6 {
     grid-template-columns: repeat(2, 1fr);
@@ -200,7 +200,7 @@ header {
     padding: 2rem 5rem;
 }
 
-/* Section 7 */
+/* Section 7 Contact Section*/
 
 .sec7 {
     grid-template-columns: 1fr 0.5fr 0.5fr;
@@ -231,7 +231,7 @@ form textarea {
     padding: 1rem;
 }
 
-/* Section 8 */
+/* Section 8 Map Section */
 
 .sec8 {
     background: #F4663D;
